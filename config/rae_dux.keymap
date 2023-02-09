@@ -186,9 +186,18 @@
 
         minimak4_layer {
             bindings = <
-            &kp  Q    &kp  W         &kp  D    &kp  R        &kp  K                         &kp  Y    &kp  U        &kp  I        &kp  O     &kp  P            
-            &kp  A    &lt NUMPAD_L S &kp  T    &lt FSYM_L  F &kp  G                         &kp  H    &lt JSYM_L J  &kp  E        &kp  L     &lt EDIT_L SEMI   
-            &kp  Z    &kp  X         &kp  C    &kp  V        &kp  B                         &kp  N    &kp  M        &kp  COMMA    &kp  DOT   &lt MEDIA_L SLASH 
+            &kp  Q    &kp  W         &kp  D    &kp  R        &kp  K                     &kp  Y    &kp  U        &kp  I        &kp  O     &kp  P            
+            &kp  A    &lt NUMPAD_L S &kp  T    &lt FSYM_L  F &kp  G                     &kp  H    &lt JSYM_L J  &kp  E        &kp  L     &lt EDIT_L SEMI   
+            &kp  Z    &kp  X         &kp  C    &kp  V        &kp  B                     &kp  N    &kp  M        &kp  COMMA    &kp  DOT   &lt MEDIA_L SLASH 
+            &trans     &trans    &trans         &trans  &trans  &trans  
+            >;
+        };
+
+        isrt_layer {
+            bindings = <
+            &kp  Q    &kp  W         &kp  D    &kp  R        &kp  K                          &kp  Z    &kp  F        &kp  U      &kp  SLASH &kp SEMI       
+            &kp  I    &lt NUMPAD_L S &kp  R    &lt FSYM_L  T &kp  G                          &kp  P    &lt JSYM_L N  &kp  E      &kp  A     &lt EDIT_L O   
+            &kp  Y    &kp  V         &kp  W    &kp  D        &kp  J                          &kp  B    &kp  H        &kp  COMMA  &kp  DOT   &lt MEDIA_L X  
             &trans     &trans    &trans         &trans  &trans  &trans  
             >;
         };
