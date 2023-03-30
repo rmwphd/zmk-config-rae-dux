@@ -223,7 +223,7 @@
 
         fsym_layer {
             bindings = <
-            &trans  &trans  &trans &trans &trans                                &kp CARET &kp AMPS   &kp ASTRK   &kp GRAVE  &trans
+            &to ADJUST_L  &trans  &trans &trans &trans                                &kp CARET &kp AMPS   &kp ASTRK   &kp GRAVE  &trans
             &trans  &kp TILDE &kp EXCL &trans &trans                            &kp EQUAL &kp MINUS  &kp UNDER   &kp BSLH   &kp COLON
             &trans  &trans  &trans &trans &trans                                &trans    &kp PLUS   &kp SLASH   &kp PIPE   &trans  
             &trans &kp DEL_WRD &trans               &trans &trans &trans 
@@ -232,7 +232,7 @@
         
         jsym_layer {
             bindings = <
-            &kp GRAVE &kp AT    &kp LBRC &kp RBRC  &trans                         &trans &trans &trans &trans &trans 
+            &kp GRAVE &kp AT    &kp LBRC &kp RBRC  &trans                         &trans &trans &trans &trans &to ADJUST_L 
             &kp HASH  &kp DLLR  &kp LPAR &kp RPAR  &kp LEFT                  &trans &trans &kp QMARK &kp SLASH &kp COLON 
             &kp PRCNT &kp CARET &kp LBKT &kp RBKT  &trans                     &trans &trans &trans &trans &trans  
             &trans    &trans   &trans               &trans &trans &trans
