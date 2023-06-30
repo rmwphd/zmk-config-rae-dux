@@ -94,7 +94,7 @@
         //COMBO(equal, &kp EQUAL, 12 23, 100)
         //COMBO(enter, &kp ENTER, 17 26, 60)
         COMBO(reset_l, &bootloader, 0 1 2 3, 100)
-        // COMBO(reset_right, &bootloader, 6 7 8 9, 100)
+        COMBO(reset_right, &bootloader, 6 7 8 9, 100)
     };
 
     behaviors {
@@ -251,9 +251,9 @@
 
         adj_layer {
             bindings = <
-            &to  QWERTY_L &to  MINIMAK4_L &to  ISRT_L &none         &none                                         &none      &kp PRINTSCREEN    &none         &none  &none
-            &bt  BT_SEL 0 &bt  BT_SEL 1 &bt  BT_SEL 2 &bt  BT_SEL 3 &bt  BT_SEL 4                           &none      &none              &none         &none              &none    
-            &reset        &none         &out OUT_USB  &out OUT_BLE  &none                                               &none      &none              &none         &none              &none         
+            &to  QWERTY_L &to  MINIMAK4_L &to  ISRT_L &none         &none                                         &none      &kp PRINTSCREEN    &none  &none  &none
+            &bt  BT_SEL 0 &bt  BT_SEL 1 &bt  BT_SEL 2 &bt  BT_SEL 3 &bt  BT_SEL 4                           &none      &none              &none   &none    &none    
+            &reset        &none         &out OUT_USB  &out OUT_BLE  &none                                               &none      &none   &none  &none  &reset         
             &trans        &trans        &trans                               &bt BT_CLR    &trans     &trans     
             >;
         };
