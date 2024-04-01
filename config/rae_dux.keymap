@@ -216,16 +216,16 @@
             bindings = <
             &kp TASK_MAN &kp SWP_WND    &kp SELW_LEFT &kp SELW_RIGHT &trans                     &kp NEW_TAB &kp PG_UP &kp UP &kp PG_DN &kp PSCRN
             &kp SEL_ALL  &kp R_SAVE     &kp MVW_LEFT  &kp MVW_RIGHT  &trans                     &kp  R_HOME  &kp LEFT &kp DOWN &kp RIGHT &kp R_END
-            &kp R_UNDO   &kp R_CUT &kp R_COPY    &kp R_PASTE    &kp R_REDO                       &kp SEL_HOME &kp SEL_LEFT &kp SEL_DOWN &kp SEL_RIGHT &kp SEL_END
+            &kp R_UNDO   &kp R_CUT &kp R_COPY    &kp R_PASTE    &kp R_REDO                      &kp SEL_HOME &kp SEL_LEFT &kp SEL_DOWN &kp SEL_RIGHT &kp SEL_END
             &trans  &trans  &trans                                                   &trans  &trans  &trans
             >;
         };
 
         fsym_layer {
             bindings = <
-            &to ADJUST_L  &trans  &trans &trans &trans                                &kp CARET &kp AMPS   &kp ASTRK   &kp GRAVE  &trans
+            &to ADJUST_L  &trans  &trans &trans &trans                          &kp CARET &kp AMPS   &kp ASTRK   &kp GRAVE  &trans
             &trans  &kp TILDE &kp EXCL &trans &trans                            &kp EQUAL &kp MINUS  &kp UNDER   &kp PIPE   &kp COLON
-            &trans  &trans  &trans &trans &trans                                &trans    &kp PLUS   &trans &kp BLSH   &kp SLASH
+            &trans  &trans  &trans &trans &trans                                &trans    &kp PLUS   &trans      &kp BSLH   &kp SLASH
             &trans &kp DEL_WRD &trans               &trans &trans &trans 
             >;
         };
