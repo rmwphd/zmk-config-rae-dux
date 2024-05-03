@@ -84,8 +84,8 @@
                   ╰────────────╯ ╰────────────╯        */
 
         COMBO(tab,     &kp TAB,    4 14,    30)
-        COMBO(escape,  &kp ESCAPE, 0 10,    30)
-        //COMBO(colon,   &kp COLON,  7 8,     30)
+        COMBO(escape,  &kp ESCAPE, 32 33,    30)
+        COMBO(backforward,   &bkfwd,  0 10,     30)
         COMBO(sqt,     &kp SQT,    9 19,    30)
         //COMBO(minus,   &kp MINUS,  31 32,   10)
         //COMBO(uscore,  &kp UNDER,  33 34,   10)
@@ -95,6 +95,11 @@
         //COMBO(enter, &kp ENTER, 17 26, 60)
         COMBO(reset_l, &bootloader, 0 1 2 3, 100)
         COMBO(reset_right, &bootloader, 6 7 8 9, 100)
+
+        COMBO(cmd, &sk RGUI, 13 16, 10)
+        COMBO(opt, &sk RALT, 12 17, 10)
+        COMBO(ctrl, &sk RCTRL, 11 18, 10)
+        COMBO(cmdctrl, &sk RGUI &sk RCTRL, 10 19, 10)
     };
 
     behaviors {
